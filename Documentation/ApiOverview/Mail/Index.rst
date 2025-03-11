@@ -491,7 +491,7 @@ Or, if you prefer, do not concatenate the calls:
     use TYPO3\CMS\Core\Utility\GeneralUtility;
     use TYPO3\CMS\Core\Mail\MailMessage;
 
-    $email = new MailMessage();
+    $mail = new MailMessage();
     $mail->from(new Address('john.doe@example.org', 'John Doe'));
     $mail->to(
         new Address('receiver@example.org', 'Max Mustermann'),
